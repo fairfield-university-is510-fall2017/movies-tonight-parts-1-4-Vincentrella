@@ -5,9 +5,9 @@
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
-USE `MOVIES_TONIGHT`;
+USE `MoviesTonight`;
 
-CREATE TABLE IF NOT EXISTS `DATASHEET` (
+CREATE TABLE IF NOT EXISTS `DATASHEET`(
   `TName` varchar(255) NOT NULL,
   `Location` varchar(255) NOT NULL,
   `Phone` varchar(12) NOT NULL,
